@@ -2,33 +2,35 @@
 Transfer your diabetes data from Nightscout to LibreView.
 
 ## Для начала нужно установить:
-- git
+- git:
+```
+sudo apt update
+sudo apt install git
+Проверяем, что GIT встал: git version
+```
 - nodejs
+```
+sudo apt update
+sudo apt install nodejs
+Проверяем, что Nodejs встал: nodejs -v
+```
 
-## Первый запуск
-
-В консоли выполняем команды:
+Делаем клон из репозитория:
 ```
 git clone https://github.com/mo211073bkp/mynightscout-librelink-up
-cd mynightscout-librelink-up
-sudo apt install npm
-npm start
 ```
 
-## Последующее использование
+Переходим в папку клона и устанавливаем npm:
+```
+cd mynightscout-librelink-up
+sudo apt install npm
+```
+
+
+## Теперь всё готово к использованию...
 
 В консоли выполняем команды:
 ```
 cd mynightscout-librelink-up
 npm start
 ```
-
-## Todo
-- many many testing!
-- better error handling
-- clean up entry point
-- clean up user input
-- add frequent unscheduledContinuousGlucoseEntries
-- add notes from libreview
-- add basal insulin?!?
-- different libreview api endpoints
