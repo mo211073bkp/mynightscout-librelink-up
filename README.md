@@ -1,5 +1,4 @@
-# Transfer Nightscout data to LibreView
-Transfer your diabetes data from Nightscout to LibreView.
+# Передача (в ручном режиме) данных из Nightscout в LibreView.
 
 ## Для начала нужно установить:
 - git:
@@ -27,7 +26,7 @@ sudo apt install npm
 ```
 
 
-## Теперь всё готово к использованию...
+## Теперь всё готово к использованию, если Вы не в каталоге, то нужно в него перейти:
 
 В консоли выполняем команды:
 ```
