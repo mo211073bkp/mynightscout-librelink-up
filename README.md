@@ -9,9 +9,9 @@ Transfer your diabetes data from Nightscout to LibreView.
 
 В консоли выполняем команды:
 ```
-git clone https://github.com/mo211073bkp/mynightscout-to-libreview
-cd mynightscout-to-libreview
-npm install
+git clone https://github.com/mo211073bkp/mynightscout-librelink-up
+cd mynightscout-librelink-up
+sudo apt install npm
 npm start
 ```
 
@@ -19,7 +19,7 @@ npm start
 
 В консоли выполняем команды:
 ```
-cd mynightscout-to-libreview
+cd mynightscout-librelink-up
 npm start
 ```
 
