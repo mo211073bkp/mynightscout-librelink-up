@@ -1,25 +1,25 @@
 # Transfer Nightscout data to LibreView
 Transfer your diabetes data from Nightscout to LibreView.
 
-## Requirements
+## Для начала нужно установить:
 - git
 - nodejs
 
-## First use
+## Первый запуск
 
-Open command line in your favorite folder:
+В консоли выполняем команды:
 ```
-git clone https://github.com/creepymonster/nightscout-to-libreview
-cd nightscout-to-libreview
+git clone https://github.com/mo211073bkp/mynightscout-to-libreview
+cd mynightscout-to-libreview
 npm install
 npm start
 ```
 
-## Future use
+## Последующее использование
 
-Open command line in your favorite folder:
+В консоли выполняем команды:
 ```
-cd nightscout-to-libreview
+cd mynightscout-to-libreview
 npm start
 ```
 
